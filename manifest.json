@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "website-qrcode-generator",
+  "version": "0.0.1",
+  "author": "kenticny <kenticny@gmail.com>",
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "128": "/assets/logo/icon-128.png"
+  },
+  "description": "Generator current website url qrcode",
+  "browser_action": {
+    "default_icon": "/assets/logo/icon-128.png",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "page": "background.html"
+  }
+}
